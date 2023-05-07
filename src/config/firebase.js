@@ -6,14 +6,22 @@ import {
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import {
+  API_KEY,
+  AUTH_DOMAIN,
+  PROJECT_ID,
+  STORAGE_BUCKET,
+  MESSAGING_SENDER_ID,
+  APP_ID,
+} from '@env';
+
 const firebaseConfig = {
-  apiKey: 'AIzaSyBP3iIwXHjUqSRI1rJAA3iDNpEywEKKgFo',
-  authDomain: 'org-cesta-app.firebaseapp.com',
-  projectId: 'org-cesta-app',
-  storageBucket: 'org-cesta-app.appspot.com',
-  messagingSenderId: '1008658925251',
-  appId: '1:1008658925251:web:d855b3eae74fcc81508476',
-  measurementId: 'G-GS73YER7DK',
+  apiKey: API_KEY,
+  authDomain: AUTH_DOMAIN,
+  projectId: PROJECT_ID,
+  storageBucket: STORAGE_BUCKET,
+  messagingSenderId: MESSAGING_SENDER_ID,
+  appId: APP_ID,
 };
 
 // Initialize Firebase
