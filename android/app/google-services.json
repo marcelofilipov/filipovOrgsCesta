@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1008658925251",
+    "project_id": "org-cesta-app",
+    "storage_bucket": "org-cesta-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008658925251:android:b167ba46603df45a508476",
+        "android_client_info": {
+          "package_name": "com.filipovorgscesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008658925251-12fhog948qr993q750kqteunc6imsd4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSQbxt4LrXYFNpS3akfcolDO3_mZ52Hdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008658925251-12fhog948qr993q750kqteunc6imsd4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
